@@ -1,3 +1,57 @@
+:root {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, #0A0A0A, #111827);
+  --accent: #4f9cff;
+  --border: #1f2937;
+  --glow: rgba(79, 156, 255, 0.25);
+}
+
+body {
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.translatorContainer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#editor {
+  resize: none;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  height: 70vh;
+  width: 45vw;
+  padding: 1rem;
+  background-color: #0A0A0A;
+  color: #f9fafb;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  transition: all 0.25s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+#editor:focus {
+  color: #4f9cff;
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 15px var(--glow);
+}
+
 #preview {
-  
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  height: 70vh;
+  width: 45vw;
+  padding: 1rem;
+  overflow-y: auto;
+  background: #0f172a;
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }

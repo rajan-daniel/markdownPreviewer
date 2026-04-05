@@ -38,8 +38,10 @@ function add(num1, num2) {
 
   return (
     <>
+      <div className="translatorContainer">
       <textarea id="editor" placeholder='Enter text here' value={text} onChange={textChanged}></textarea>
       <div id="preview" dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
     </>
   );
 }
