@@ -2,6 +2,10 @@ import { useState } from "react"
 import { marked } from "https://cdnjs.cloudflare.com/ajax/libs/marked/16.3.0/lib/marked.esm.js";
 import DOMPurify from "dompurify";
 
+marked.setOptions({
+  breaks: true
+});
+
 const Translator = () => {
   const [text, setText] = useState(`
 # example (H1) heading
