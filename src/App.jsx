@@ -1,4 +1,3 @@
-import './App.css'
 import { useState } from "react"
 import { marked } from "https://cdnjs.cloudflare.com/ajax/libs/marked/16.3.0/lib/marked.esm.js";
 import DOMPurify from "dompurify";
