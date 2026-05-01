@@ -1,16 +1,42 @@
-# React + Vite
+## 💬 Markdown Previewer (React, HTML, CSS & JavaScript Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📌 Preview  
+A real-time Markdown editor and previewer built with React that allows users to write Markdown syntax on one side and instantly see the rendered output on the other. The project is deployed using GitHub Pages for live access.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 📖 About the Project  
+The **Markdown Previewer** is my first React-based project, designed to convert Markdown text into formatted HTML in real time. Users can type Markdown syntax such as headings, lists, links, and code blocks, and immediately see the rendered result.
 
-## React Compiler
+This project was deployed using **GitHub Pages**, giving it a real-world production-like workflow for hosting a React application. It helped me understand the React component structure, state management, and how user input dynamically updates the UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It also introduced me to working with Markdown parsing libraries and rendering live previews efficiently inside a React application.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚀 What I Learned  
+- Building my first **React application from scratch**  
+- Understanding **React components and state management (`useState`)**  
+- Handling **real-time user input updates**  
+- Using a **Markdown parser to convert text into HTML**  
+- Implementing a **live preview system (split editor + preview UI)**  
+- Deploying a React app using **GitHub Pages**  
+- Structuring a project for production deployment  
+- Improving workflow with **component-based architecture**
+
+---
+
+### 🛠️ Technologies Used  
+- React.js  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3  
+- Markdown Parser (Marked.js or similar)  
+- GitHub Pages (Deployment)
+
+---
+
+### 🎯 Key Takeaway  
+This project was my introduction to React and taught me how powerful component-based architecture is for building interactive applications. It also strengthened my understanding of state-driven UI updates and gave me experience deploying a real project online.
+
+https://github.com/user-attachments/assets/507501ff-4280-4d72-bda8-90aa00ed2573
